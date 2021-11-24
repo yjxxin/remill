@@ -1156,8 +1156,6 @@ DEF_SEM(VPMOVSXWD_MASKmskw_SIMD128, D dst, K k1, S src) {
   }
   SWriteV32(dst, dst_vec);
   return memory;
-
-  
 }
 }
 
